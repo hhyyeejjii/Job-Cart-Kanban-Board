@@ -1,5 +1,5 @@
 ## Job-Cart Kanban Board
-
+<img src="example/example image.png">
 
 ### 주요 기능 (Key Features) 
 - 원클릭 공고 수집: 현재 보고 있는 채용 페이지의 제목과 URL을 자동으로 가져와 장바구니에 담습니다.
