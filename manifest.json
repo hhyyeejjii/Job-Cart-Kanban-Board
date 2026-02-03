@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "취준 장바구니",
+    "version": "1.0",
+    "description": "채용 공고를 쉽고 빠르게 저장하세요!",
+    "permissions": ["activeTab", "storage"],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

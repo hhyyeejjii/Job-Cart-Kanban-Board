@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 320px;
+            padding: 20px;
+            font-family: -apple-system, sans-serif;
+        }
+        
+        h2 {
+            margin: 0 0 20px 0;
+            color: #333;
+            font-size: 18px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        
+        .input-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 13px;
+            color: #555;
+            font-weight: bold;
+        }
+        
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 13px;
+        }
+        
+        textarea {
+            height: 60px;
+            resize: none;
+        }
+        
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        
+        #viewCartBtn {
+            background-color: #f8f9fa;
+            color: #333;
+            border: 1px solid #ddd;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>🛒 취준 장바구니</h2>
+    <div class="input-group"><label>공고 제목</label><input type="text" id="title"></div>
+    <div class="input-group"><label>마감일</label><input type="date" id="deadline"></div>
+    <div class="input-group">
+        <label>선호도</label>
+        <select id="priority">
+      <option value="high">💖 매우 높음</option>
+      <option value="mid">👍 보통</option>
+      <option value="low">🤔 낮음</option>
+    </select>
+    </div>
+    <div class="input-group"><label>메모</label><textarea id="memo" placeholder="특이사항을 적어주세요."></textarea></div>
+    <button id="saveBtn">장바구니 담기</button>
+    <button id="viewCartBtn">📂 내 리스트 보기</button>
+    <script src="popup.js"></script>
+</body>
+
+</html>
